@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cliente</title>
+    <link rel="stylesheet" href="css/cliente.css">
+    <link rel="icon" type="image/png" href="img/Favicon.png"/>
+</head>
+<body>
+    <section>
+        <div class="box">
+          <div class="container">
+            <div class="login">
+                <h2>Formulario de Cliente</h2>
+                <form id="cliente-form" action="php/Script2.php" method="post">
+                    <div class="inputbox">
+                        <img src="img/incon2.png" alt="">
+                        <input type="text" id="codigo" name="codigo" placeholder="Código">
+                    </div>
+                    <img src="img/incon001.png" alt="">
+
+                    <div class="inputbox">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                        <img src="img/incon2.png" alt="">
+                    </div>
+                    <div class="inputbox">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <img src="img/incon2.png" alt="">
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" id="DUI" name="DUI" placeholder="DUI">
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" id="crear-cliente" value="Crear Cliente">
+                    </div>
+                </form>
+            </div>
+          </div>  
+        </div>
+    </section> 
+</body>
+</html>
